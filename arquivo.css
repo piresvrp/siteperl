@@ -1,0 +1,273 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Helvetica Condensed", Helvetica, Arial;
+}
+
+body{
+	background: #B4B4B4;
+	padding: 15px 0px 15px 0px;
+}
+
+
+
+p{
+	line-height: 1.5em;
+	margin-bottom: 1.0em;
+	text-align: justify;
+}
+
+img{
+	border: solid 1px #6F5230;
+}
+
+#geral{
+	z-index: 2;
+	position: relative;
+	width: 82%;
+	border: solid 7px #fff;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top:-10px;
+	margin-bottom:-5px;
+}
+
+#cabecalho{
+	position: relative;
+	width: 100%;
+	border:#000 solid 1px;
+	height: 130px;
+	background:  #09c;
+	margin-bottom: 3px;
+}
+
+#titulo_tutorial{
+	position: relative;
+	height: 40px;
+	border:black solid 1px;
+	background:#2A3F55;
+	margin-top:-1px;
+	margin-bottom:2px;
+	width: 100%;
+}
+#titulo_tutorial,input{
+	margin-left:-1px;}
+
+
+#login{
+	position: absolute;
+	top: 9px;
+	left:170px;
+	right:150px;
+	padding-right: 0px;
+}
+
+#login input.text{
+	vertical-align: middle;
+	border-top: solid 1px #000000;
+	border-right: 0px;
+	border-bottom: solid 1px #777777;
+	border-left: 0px;
+	padding: 0.15em;
+	width: 10.0em;
+}
+
+#login input.submit{
+	
+	background:#09c;
+	border: solid 0.5px #CCC ;
+	font-weight: bold;
+	padding:2px;
+	font-size: 12px;
+	color: #F2F3DE;
+	vertical-align: middle;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#login a{
+	color:#FFF;
+	text-decoration:none;
+	margin-left:10px;
+	position:absolute;
+}
+
+#login a:hover{
+	color: #C90;
+	text-decoration:underline;
+	font-size:18px;
+}
+
+#menu{
+	position: relative;
+	background: #09c;
+	height: 47px;
+	padding: 0px 1.0px 0px 1.0px;
+	margin-bottom: 3px; color:#FFF;
+}
+
+#menu ul{
+	position: absolute;
+	top: 13px;
+	margin-left:20px;
+}
+
+#menu ul li{
+	position: relative;
+	display: inline;
+	margin-left:-4px;
+	padding:16px;
+}
+
+#menu ul li a{
+	padding: 13px 15px 15px 15px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	text-decoration: underline;
+	color:#000;
+}
+
+#menu ul li a.active{
+	text-decoration:underline;
+	color:#000;
+}
+
+#menubottom{
+	background: #fff url('images/border1.gif') repeat-x;
+	height: 14px;
+	margin-bottom: 1.5em;
+}
+
+#conteudo{
+	padding: 0em 2.0em 0em 2.0em;
+}
+
+#conteudoum a{
+	color:#09c;
+	text-decoration:none;
+
+}
+
+#conteudoum a:hover{
+	color:#09f;
+	text-decoration:none;
+	font-size:18px;
+}
+
+#conteudoum p  a:hover{
+	color:green;
+	font-size:17px;
+	text-decoration:underline;
+}
+
+#conteudoum img{
+	border:white 1px  solid;
+}
+
+
+
+#rodape{
+	position: relative;
+	height: 2.0em;
+	clear: both;
+	padding-top: 5.0em;
+	background: #fff url('images/border2.gif') repeat-x 0em 2.5em;
+	font-size: 0.8em;
+}
+
+#rodape .left{
+	position: absolute;
+	left: 2.0px;
+	bottom: 15.2px;
+}
+
+#rodape .right{
+	position: absolute;
+	right: 2.0px;
+	bottom: 15.2px;
+}
+
+#rodape .right a{
+	text-decoration: none;
+	color:#000;
+}
+
+#rodape .right a:hover{
+	text-decoration: none;
+}
+#instalar{
+	text-align:justify;
+}
+#instalar h4{
+	color:#09c;
+	font-size:18px;
+	text-align:center;
+}
+
+#instalar h5{
+	background: #999;
+	color: #000;
+	font-size:14px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:20px;
+	border:   solid 1px #2A0000;
+}
+.xxx{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:white;}
+	
+	
+	#sintaxe{
+	text-align:justify;
+}
+#sintaxe h4{
+	color:#09c;
+	font-size:18px;
+	text-align:center;
+}
+
+#sintaxe h5{
+	background: #999;
+	color: #000;
+	font-size:14px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:20px;
+	border:   solid 1px #2A0000;
+}
+#sintaxe h6{
+	background: #FFF;
+	color:  #2A0000;
+	font-size:14px;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:20px;
+	border:   solid 1px #2A0000;
+}
+#loge {
+	width:250px;
+	height:195px;
+	text-align:center;
+	background: #FFF;
+	border: solid 4px #09C;
+	border-radius:7px;
+	margin:auto;
+	color: #09c;
+}
+#loge fieldset {
+	border:3px;
+	color:  #09C;
+}
+#loge input{
+	border-radius:4px;
+}
+#loge input[type="submit"]{
+	 background:#09C; 
+	 color:#FFF; 
+	 padding:2px;
+	 vertical-align: middle;
+	 border:2px;
+}
